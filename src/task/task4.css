@@ -268,4 +268,9 @@
     font-size: small;
     font-weight: 500;
   }
+     
+  table_btn {
+    font-size: x-small;
+    padding: 5%;
+  }
 }
