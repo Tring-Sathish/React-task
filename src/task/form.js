@@ -136,7 +136,6 @@ const Form = () => {
             setbtn_3(true);
 
         }
-        document.getElementById("form").reset();
     }
 
     const handlechange = (e) => {
