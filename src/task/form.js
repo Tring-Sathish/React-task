@@ -108,7 +108,7 @@ const Form = () => {
 
     const btnClick = (e) => {
         setformdisplay(true);
-        setproduct("");
+        setproduct("Select product");
         setquantity(1);
         setprice("");
         settotal("");
