@@ -107,6 +107,7 @@ const Form = () => {
     }
 
     const btnClick = (e) => {
+        console.log("clicked");
         setformdisplay(true);
         setproduct("");
         setquantity(1);
