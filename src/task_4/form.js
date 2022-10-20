@@ -45,8 +45,8 @@ const Form = () => {
 
     const addData = (e) => {
         e.preventDefault();
+        setdisplay(true);
         if (product !== "Select product") {
-            setdisplay(true);
             e.target.parentElement.reset();
             setproduct("Select product");
             setquantity(1);
