@@ -1,5 +1,5 @@
-import './task_4/task4.css';
-import Form from './task_4/form';
+import './task/task4.css';
+import Form from './task/form';
 
 function App() {
   localStorage.setItem("Shop 1",JSON.stringify([{pro: "Realme", qua : "1", pri : 10000, tot : 10000 }]));
