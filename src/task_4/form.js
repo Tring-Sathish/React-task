@@ -45,9 +45,9 @@ const Form = () => {
 
     const addData = (e) => {
         e.preventDefault();
-        setdisplay(true);
         if (product !== "Select product") {
             e.target.parentElement.reset();
+            setdisplay(true);
             setproduct("Select product");
             setquantity(1);
             setprice("");
@@ -136,7 +136,6 @@ const Form = () => {
             setbtn_3(true);
 
         }
-//         document.getElementById("form").reset();
     }
 
     const handlechange = (e) => {
