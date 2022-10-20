@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: block;
+  }
+  
+  .table_container {
+    display: block;
+    background: #ccc;
+    width:90%;
+    margin: 1% 5%;
+    padding: 5px;
+  }
+  
+  .table_container table{
+    width: 90%;
+    margin: 1% 5%;
+    text-align: center;
+    background: #f1f1f1;
+    table-layout: fixed;
+  }
+  
+  .table_container table, .table_container tbody, .table_container th, .table_container tr, .table_container td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  
+  .table_container th {
+    background-color: #04aa6d;
+  }
+  
+  .table_btn {
+    border: none;
+    background-color: #04aa6d;
+    width: 100%;
+    padding: 10px;
+    margin: 0%;
+    font-size: large;
+  }
+  
+  .table_btn:hover {
+    background-color: #45a049;
+  }
+  
+  .form_conatainer {
+    display: block;
+    background: #ccc;
+    width:90%;
+    margin: 1% 5%;
+    padding: 5px;
+  }
+  
+  form {
+    width: 100%;
+    margin: 1% 5%;
+  }
+  
+  input[type=text], select, input[type=number] {
+    padding: 10px;
+    background: #f1f1f1;
+    width: 20%;
+    margin-right: 1%;
+    border: none;
+    font-size: 90%;
+    border-radius: 5px;
+  }
+  
+  .card_container {
+    width: 250px;
+    margin: 5% 15%;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 5%;
+  }
+  
+  h3 {
+    text-align: left;
+    margin-left: 20%;
+  }
+  
+  i {
+   font-weight: 450; 
+  }
+  
+  .card_body {
+    margin: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  
+  .table_data {
+    display: block;
+    background: #ccc;
+    width:70%;
+    margin: 1% 15%;
+    padding: 5px;
+  }
+  
+  .table_data table{
+    width: 90%;
+    margin: 1% 10%;
+    text-align: center;
+    background: #f1f1f1;
+    table-layout: fixed;
+  }
+  
+  .table_data table, .th, .table_data tr, .td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  
+  .th_btn {
+    background-color: #ccc;
+  }
+  
+  .delete {
+    border: none;
+    background: #ccc;
+    text-align: left;
+  }
+  
+  .delete button {
+    border: none;
+    padding: 5% 6%;
+    background-color: #b94559;
+    margin-left: 10%;
+    border-radius: 3px; 
+  }
+  
+  .delete button:hover {
+    background-color: #f31d1d;
+  }
+  
+  #addbtn_1, #addbtn_2, #addbtn_3 {
+    padding: 10px;
+    font-size: medium;
+    border: none;
+    background-color: #1f8f44;
+    border-radius: 3px; 
+  }
+  
+  #addbtn_1:hover, #addbtn_2:hover, #addbtn_3:hover, #submit_1:hover, #submit_2:hover, #submit_3:hover {
+    background-color: #09b341;
+  }
+  
+  #submit_1, #submit_2, #submit_3 {
+    margin-left: 1%;
+    padding: 1%;
+    font-size:100%;
+    font-weight: bold;
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 3px;  
+  }
