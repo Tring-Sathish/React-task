@@ -84,6 +84,7 @@ const Form = () => {
 
     const btnClick = (e) => {
         setformdisplay(true);
+        setdisplay(false);
         setproduct("Select product");
         setquantity(1);
         setprice("");
@@ -147,7 +148,9 @@ const Form = () => {
                             <input type="number" disabled value={price} />
                             <input type="number" disabled value={total} />
                             <button id="addbtn" onClick={addData}>&#43;</button>
-                            <button id="submit" onClick={storeData} >Submit</button>
+                            {
+                            list.length !== 0 ? <button id="submit" onClick={storeData} >Submit</button> : null
+                            }
                         </form>
                     </div> : null
             }
