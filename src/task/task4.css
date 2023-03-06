@@ -190,10 +190,10 @@
   input[type=text], select, input[type=number] {
     width: 18%;
   }
-  .card_container {
+/*   .card_container {
     margin: 5%;
     width: 150px;
-  }
+  } */
 
   #addbtn_1 {
     padding: 5px;
@@ -229,10 +229,10 @@
     margin: 2%;
     display: inline-block;
   }
-  .card_container {
+/*   .card_container {
     margin: 5%;
     width: 150px;
-  }
+  } */
 
   #addbtn_1 {
     padding: 5px;
