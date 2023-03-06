@@ -5,6 +5,7 @@ const table = ({btnClick}) => {
 
 
     const list = JSON.parse(localStorage.getItem("Shop"));
+    let i = 0;
 
     const list_1 = list.filter((ele) => {
         if (ele.pro === "Realme" || ele.pro === "Redmi" || ele.pro === "Apple") {
@@ -48,22 +49,22 @@ const table = ({btnClick}) => {
                         <tr>
                             <td>
                                 {
-                                    list_1 !== null ?list_1.map((ele,index) => (
-                                        <Card key = {index} arr = {ele} />
+                                    list_1 !== null ?list_1.map((ele) => (
+                                        <Card key = {i++} arr = {ele} />
                                     )): null
                                 }
                             </td>
                             <td>
                                 {
-                                    list_2 !== null ? list_2.map((ele,index) => (
-                                        <Card key = {index}  arr = {ele}/>
+                                    list_2 !== null ? list_2.map((ele) => (
+                                        <Card key = {i++}  arr = {ele}/>
                                     )): null
                                 }
                             </td>
                             <td>
                                 {
-                                    list_3 !== null ? list_3.map((ele,index) => (
-                                        <Card key = {index}  arr = {ele}/>
+                                    list_3 !== null ? list_3.map((ele) => (
+                                        <Card key = {i++}  arr = {ele}/>
                                     )): null
                                 }
                             </td>
