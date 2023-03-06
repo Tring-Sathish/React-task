@@ -14,6 +14,7 @@ const Form = () => {
     const [options, setoptions] = useState([]);
     const [display, setdisplay] = useState(false);
     const [formdisplay, setformdisplay] = useState(false);
+    let i = 0;
 
 
     const set_price_total = (select_product, select_quantity) => {
@@ -170,8 +171,9 @@ const Form = () => {
                             </thead>
                             <tbody>
                                 {
+                                    
                                     list.map((ele, index) => (
-                                        <tr className={index}>
+                                        <tr key={i++} className={index}>
                                             <td className="td">{ele.pro}</td>
                                             <td className="td">{ele.qua}</td>
                                             <td className="td">{ele.pri}</td>
