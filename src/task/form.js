@@ -171,7 +171,7 @@ const Form = () => {
                             <tbody>
                                 {
                                     list.map((ele, index) => (
-                                        <tr key={index} className={index}>
+                                        <tr className={index}>
                                             <td className="td">{ele.pro}</td>
                                             <td className="td">{ele.qua}</td>
                                             <td className="td">{ele.pri}</td>
